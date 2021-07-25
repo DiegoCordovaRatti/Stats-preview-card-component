@@ -1,31 +1,34 @@
+//Viewport
+//Layout
+$mobile: 375px;
+$desktop: 1440px;
+
 //Color Schemes
 //First color scheme
+$very-dark-blue: hsl(233, 47%, 7%); //main background
+$dark-saturated-blue: hsl(244, 38%, 16%); //card background
+$soft-violet: hsl(277, 64%, 61%); //accent
 
 //Second color scheme
-
-
-//Third color scheme
-
-
-//Fourth color scheme
-
+$white: hsl(0, 0%, 100%); //main heading, stats
+$slightly-transparent-white: hsla(0, 0%, 100%, 0.75); //main paragraph
+$transparent-white: hsla(0, 0%, 100%, 0.6);// stat headings
 
 // Typography
 //Font Families
-
+$inter: 'Inter', sans-serif;
+$lexen-deca:'Lexend Deca', sans-serif;
 // Typography
 // Font Weight
-// $regular: 400;
-// $semi-bold: 600;
-// $bold: 700;
+$weight-regular: 400;
+$weight-bold: 700;
 
 // Typography
 // Font Sizes
-// $xxxx-large: 130px;
-// $xxx-large: 100px;
-// $xx-large: 30px;
-// $x-large: 20px;
-// $large: 18px;
-// $medium: 16px;
-// $small: 14px;
-// $x-small: 12px;
+$xxxx-large: 130px;
+$xxx-large: 100px;
+$xx-large: 30px;
+$x-large: 20px;
+$large: 18px;
+$medium: 15px;
+$x-small: 12px;
